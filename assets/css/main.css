@@ -614,7 +614,7 @@ iframe.embed{
 }
 @media screen and (max-width:1024px){
     iframe.embed{
-        height: 60vh;
+        height: 70vh;
         width: 100%;
     }
 
@@ -641,6 +641,15 @@ iframe.embed{
     }
 }
 @media screen and (max-width:500px){
+    .ba-slider {
+        margin-left: -5%;
+        margin-right: -5%;
+        height: 50vh;
+    }
+    .resize img, .ba-slider img{
+        height: 100% !important;
+        width: auto !important;
+    }
     .box-inner{
         padding: 30px;
     }

@@ -81,8 +81,56 @@ $(document).ready(function(){
 $(document).on('change','#change-kpam', function() {
     $('#image-kpam').find('.hide-img').hide()
     $('#image-kpam').find('#'+$(this).val()).css('display','block')
+    switch ($(this).val()) {
+      case 'kpam1':
+        $('#kpam-date').html('26 Juli 2019')
+        $('#kpam-image').attr('src','assets/images/kpam/slide-1-26-Juli-2019.png')
+        break;
+      case 'kpam2':
+        $('#kpam-date').html('04 September 2019')
+        $('#kpam-image').attr('src','assets/images/kpam/slide-2-04-September-2019.png')
+        break;
+      case 'kpam3':
+        $('#kpam-date').html('19 September 2019')
+        $('#kpam-image').attr('src','assets/images/kpam/slide-3-19-September-2019.png')
+        break;
+      default:
+        $('#kpam-date').html('26 Juli 2019')
+        $('#kpam-image').attr('src','assets/images/kpam/slide-1-26-Juli-2019.png')
+        break;
+    }
 })
 $(document).on('change','#change-ks', function() {
     $('#image-ks').find('.hide-img').hide()
     $('#image-ks').find('#'+$(this).val()).css('display','block')
+    switch ($(this).val()) {
+      case 'ks1':
+        $('#ks-date').html('30 Maret 2018')
+        $('#ks-image').attr('src','assets/images/ks/slide-1-30-Maret-2018.png')
+        break;
+      case 'ks2':
+        $('#ks-date').html('04 Januari 2019')
+        $('#ks-image').attr('src','assets/images/ks/slide-2-04-Januari-2019.png')
+        break;
+      case 'ks3':
+        $('#ks-date').html('20 Maret 2019')
+        $('#ks-image').attr('src','assets/images/ks/slide-3-20-Maret-2019.png')
+        break;
+      case 'ks4':
+        $('#ks-date').html('28 Juli 2019')
+        $('#ks-image').attr('src','assets/images/ks/slide-4-28-Juli-2019.png')
+        break;
+      case 'ks5':
+        $('#ks-date').html('22 Agustus 2019')
+        $('#ks-image').attr('src','assets/images/ks/slide-5-22-Agustus-2019.png')
+        break;
+      case 'ks6':
+        $('#ks-date').html('01 September 2019')
+        $('#ks-image').attr('src','assets/images/ks/slide-6-01-September-2019.png')
+        break;
+      default:
+        $('#ks-date').html('30 Maret 2018')
+        $('#ks-image').attr('src','assets/images/ks/slide-1-30-Maret-2018.png')
+        break;
+    }
 })
