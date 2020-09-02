@@ -1,9 +1,12 @@
 .ba-slider {
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   overflow: hidden;
 }
 
 select.change-image{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 4px;
     position: absolute;
     top: 0;
@@ -29,6 +32,19 @@ select.change-image{
 
 .resize img{
   height: 100%;
+}
+
+.resize p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 10px;
+  font-weight: 700;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 img.hide-img{

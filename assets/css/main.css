@@ -23,7 +23,9 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-
+h3.mid-title{
+    font-family: 'Source Sans Pro';
+}
 /* navbar css */
 .navbar{
     position: fixed;
@@ -606,7 +608,16 @@ thead tr th{padding: 10px;}
 tbody{background-color: #e4e4e4;color: #000;font-weight: 400;}
 tbody tr td{padding: 5pt 2pt;text-align: left;}
 tbody tr td.table-label{font-weight: 800;text-align: center;background-color: #d5d6d8;white-space: nowrap;}
+iframe.embed{
+    height: 90vh;
+    width: 100%;
+}
 @media screen and (max-width:1024px){
+    iframe.embed{
+        height: 60vh;
+        width: 100%;
+    }
+
     .section{
         display: block;
         position: relative;
