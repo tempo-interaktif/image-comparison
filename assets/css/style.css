@@ -78,12 +78,10 @@ img.hide-img{
   text-align: center;
   line-height: 36px;
 
-  background: #000000; /* @orange */
-  border: 1px solid #000000; /* darken(@orange, 5%) */
+  background: #000000;
+  border: 1px solid #000000;
   border-radius: 50%;
   transition: all 0.3s ease;
-  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),
-    inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 60px 50px -30px #000000; */
 }
 
 .draggable:after {
